@@ -178,9 +178,9 @@ public class CribbageCalculator {
 	/**
 	 * Count number of bits in integer that are set to 1
 	 * 
-	 * Note: This technique is described here: http://tobilehman.com/blog/2014/02/08/counting-bits-in-integers/
+	 * Note: This technique is described counting-bits-in-integers
 	 * 
-	 * @param bits
+	 *  bits
 	 * @return
 	 */
 	private int countOnes(int bits) {
@@ -201,7 +201,7 @@ public class CribbageCalculator {
 	}
 	
 	/**
-	 * Check the value of the rank (for Cribbage)
+	 * Check the value of the rank 
 	 * TODO: Make Scoreable interface that different objects can implement
 	 */
 	private int rankValue(Rank rank) {
